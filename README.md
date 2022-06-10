@@ -80,7 +80,7 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [ukbb-ehr-data](https://github.com/philipdarke/ukbb-ehr-data) | Clean and prepare UK Biobank primary care electronic health records for research |
 | [ukbbhelpr](https://github.com/philipdarke/ukbbhelpr) | A collection of helper functions primarily for working with linked primary care electronic health record data in UK Biobank |
 | [phemap](https://github.com/spiros/phemap) | Functions to map between ICD-10 terms and PheCodes for UK Biobank hospital electronic health records |
-| [UKBCaseFinder](https://github.com/yeyixuan/UKBCaseFinder) | A tool for identifying patients in UK Biobank given the definition of disease phenotypes (ICD-10, ICD-9, OPCS or cancer histology).  |
+| [UKBCaseFinder](https://github.com/yeyixuan/UKBCaseFinder) | A tool for identifying patients in UK Biobank given the definition of disease phenotypes (ICD-10, ICD-9, OPCS or cancer histology) |
 | [ukbcodes](https://github.com/SurgicalInformatics/ukbcodes) | Returns suggestions of equivalent codes based on UK Biobank mappings |
 | [UKB.COVID19](https://github.com/bahlolab/UKB.COVID19) | UK Biobank COVID-19 data processing and risk factor association tests |
 
@@ -110,7 +110,7 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [cnv-ukb](https://github.com/priestlab/cnv-ukb) | Contains scripts used to call CNVs using UK Biobank data |
 | [ukbb-pytorch-dataloader](https://github.com/hrushikeshloya/ukbb-pytorch-dataloader) | Load genotype data from UK Biobank into PyTorch |
 | [go-bgen](https://github.com/carbocation/bgen) | BGEN file format reader for parsing UK Biobank and other genotype data in Go |
-| [liftover_plink_beds)](https://github.com/dnanexus-rnd/liftover_plink_beds) | Converting UK Biobank genome-wide genotyping data from one reference build to another |
+| [liftover_plink_beds](https://github.com/dnanexus-rnd/liftover_plink_beds) | Converting UK Biobank genome-wide genotyping data from one reference build to another |
 
 ## Imaging phenotypes
 
@@ -126,9 +126,9 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [slice2vol](https://github.com/alexbagur/slice2vol) | Slice-to-Volume Registration for UK Biobank data |
 | [brain-sex](https://github.com/LeoBman/brain-sex-classification) | Predict participant sex from brain MRI images |
 | [PSMD](http://www.psmd-marker.com/) | PSMD is a robust, fully-automated and easy-to-implement marker for cerebral small vessel disease based on diffusion tensor imaging, white matter tract skeletonization (as implemented in FSL-TBSS) and histogram analysis |
-| [ePVS quantification](https://hub.docker.com/r/giorgioberardini/pvs5) | Docker image to quantify enlarged perivascular spaces (n.b. [preprocessing](https://hub.docker.com/r/giorgioberardini/pvs_preproc) should be performed first)
+| [ePVS quantification](https://hub.docker.com/r/giorgioberardini/pvs5) | Docker image to quantify enlarged perivascular spaces (n.b. [preprocessing](https://hub.docker.com/r/giorgioberardini/pvs_preproc) should be performed first) |
 | [morpho-deepsulci](https://github.com/brainvisa/morpho-deepsulci) | Deep learning methods for Morphologist sulci recognition |
-| [ENIGMA-SULCI](https://hub.docker.com/r/fpizzaga/sulci) | Docker image for the Sulci protocol from the ENIGMA-SULCI working group that combines Freesurfer and BrainVISA to robuslty segment and label 123 sulci across the whole brain |
+| [ENIGMA-SULCI](https://hub.docker.com/r/fpizzaga/sulci) | Docker image for the sulci protocol from the ENIGMA-SULCI working group that combines Freesurfer and BrainVISA to robuslty segment and label 123 sulci across the whole brain |
 | [adni_phenotypes](https://github.com/tjiagoM/adni_phenotypes) | Identifying healthy individuals with Alzheimer neuroimaging phenotypes in the UK Biobank |
 
 ### Cardiac MRI
