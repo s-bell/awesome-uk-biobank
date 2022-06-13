@@ -43,6 +43,7 @@
 - [UK Biobank TOPMed-imputed PheWeb (1,419 phenotypes)](https://pheweb.org/UKB-TOPMed/)
 - [Lee lab (~1,400 phenotypes)](https://www.leelabsg.org/resources)
 - [MRC IEU (2,514 phenotypes)](https://gwas.mrcieu.ac.uk/datasets/?gwas_id__icontains=ukb-b)
+- [Genebass (4,529 phenotypes)](https://app.genebass.org)
 - [AstraZeneca PheWAS portal (~15,500 binary and ~1,500 continuous phenotypes)](https://azphewas.com/)
 - [Oxford Brain Imaging Genetics Server (~4,000 phenotypes)](https://open.win.ox.ac.uk/ukbiobank/big40/)
 - [UNC School of Medicine GWAS summary statistics for brain imaging Phenotypes](https://www.med.unc.edu/bigs2/data/gwas-summary-statistics/)
