@@ -56,6 +56,7 @@
 - [Mitochondrial PheWas](https://zenodo.org/record/4609973)
 - [29 blood cell traits](https://t.ly/Nnga)
 - [Telomere length](https://figshare.com/s/caa99dc0f76d62990195)
+- [10 resting-state brain networks](https://zenodo.org/record/7034803)
 
 Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](https://gwas.mrcieu.ac.uk/datasets/) project.
 
@@ -112,6 +113,7 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [ukbb-pytorch-dataloader](https://github.com/hrushikeshloya/ukbb-pytorch-dataloader) | Load genotype data from UK Biobank into PyTorch |
 | [go-bgen](https://github.com/carbocation/bgen) | BGEN file format reader for parsing UK Biobank and other genotype data in Go |
 | [liftover_plink_beds](https://github.com/dnanexus-rnd/liftover_plink_beds) | Converting UK Biobank genome-wide genotyping data from one reference build to another |
+| [ukb-phasing](https://github.com/browning-lab/ukb-phasing) | A pipeline for phasing 200,031 sequenced genomes in the UK Biobank on RAP |
 
 ## Imaging phenotypes
 
@@ -183,6 +185,7 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [UKBiobank-Table-Conversion](https://github.com/futurologist/UKBiobank-Table-Conversion) | Conversion of data tables extracted from UK Biobank into new regression-friendly data tables  |
 | [ukbpheno](https://github.com/niekverw/ukbpheno) | An R package for efficiently munging the files provided by UK Biobank to generate data tables of with unified format for further analysis |
 | [ukb_healthoutcomes_db](https://github.com/ccbs-stradl/ukb_healthoutcomes_db) | Store and work with UK Biobank record-level health outcomes in a SQLite database |
+| [UKBWeightsFinal](https://github.com/sjoerdvanalten/UKBWeightsFinal) | Derive weights for UK Biobank to address selection bias using the 2011 Census |
 
 ## Misc
 | Tool | Description |
