@@ -155,6 +155,7 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [ukb_segmentation](https://github.com/tarolangner/ukb_segmentation) | PyTorch implementation for 2.5D U-Net segmentation of UK Biobank neck-to-knee body MRI |
 | [iliopsoas_muscle](https://github.com/recoh/iliopsoas_muscle) | Large-scale analysis of iliopsoas muscle volumes in the UK Biobank |
 | [PDFF](https://github.com/marcsous/pdff) | Proton density fat fraction calculation for MRI |
+| [UKBB-GNC-Abdominal-Segmentation](https://github.com/BioMedIA/UKBB-GNC-Abdominal-Segmentation) | Python pipeline for automated imaging-based abdominal organ segmentation in UK Biobank |
 
 ### Optical coherence tomography and fundus
 | Tool | Description |
