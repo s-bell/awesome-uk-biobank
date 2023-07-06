@@ -14,7 +14,7 @@
 - [Phenomewide association studies](#phenomewide-association-studies)
 - [Derivation of variables](#derivation-of-variables)
     - [Questionnaire](#questionnaire)
-    - [Primary care](#primary-care)
+    - [Electronic health records](#electronic-health-records)
     - [Clinical and biochemical](#clinical-and-biochemical)
     - [Accelerometer](#accelerometer)
 - [Genetics](#genetics)
@@ -57,6 +57,8 @@
 - [29 blood cell traits](https://t.ly/Nnga)
 - [Telomere length](https://figshare.com/s/caa99dc0f76d62990195)
 - [10 resting-state brain networks](https://zenodo.org/record/7034803)
+- [Nonsuicidal self-injury (NSSI)](https://github.com/WashU-BG/nssi_gwas)
+
 
 Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](https://gwas.mrcieu.ac.uk/datasets/) project.
 
@@ -91,7 +93,8 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 |---|---|
 | [ukbnmr](https://github.com/sritchie73/ukbnmr) | Tools for processing Nightingale NMR biomarker data in UK Biobank |
 | [CAHDbyECG](https://github.com/andywxf/Predict_CAHD_by_ECG_on_UK_Biobank) | Predict coronary atherosclerotic heart disease from electrocardiogram |
-| [NeuralCVD](https://github.com/thbuerg/NeuralCVD) | Contains code to preprocess UK Biobank data and train the NeuralCVD score (neural network-based integration of polygenic and clinical information of a prediction model for 10 year risk of major adverse cardiac events) | 
+| [NeuralCVD](https://github.com/thbuerg/NeuralCVD) | Contains code to preprocess UK Biobank data and train the NeuralCVD score (neural network-based integration of polygenic and clinical information of a prediction model for 10 year risk of major adverse cardiac events) |
+| [UKB_bioage](https://github.com/jonathanklmak/UKB_bioage_cancer) | Clinical biomarker-based biological ageing in the UK Biobank |
 
 ### Accelerometer
 | Tool | Description |
@@ -101,6 +104,8 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [snake-ukb-accel](https://github.com/tgbrooks/ukbb) | Snakemake pipeline to process and aggregate the actigraphy data in the UK Biobank |
 | [axivity-ax3-tool](https://github.com/jlc-christie/axivity-ax3-tool) | Command line tool for easily extracting light and temperature data from Axivity AX3 accelerometers used in the UK Biobank |
 | [UKBiobankKineticEnergyHarvesting](https://github.com/CASSON-LAB/UKBiobankKineticEnergyHarvesting) | Software for processing the UK Biobank accelerometer datasets in the paper 'Estimation of kinetic energy harvesting potential for self-powered wearable devices' | 
+| [ssl-wearables](https://github.com/OxWearables/ssl-wearables) | Self-supervised learning for wearables using the UK-Biobank (>700,000 person-days) |
+
 
 ## Genetics
 | Tool | Description|
@@ -114,6 +119,9 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [go-bgen](https://github.com/carbocation/bgen) | BGEN file format reader for parsing UK Biobank and other genotype data in Go |
 | [liftover_plink_beds](https://github.com/dnanexus-rnd/liftover_plink_beds) | Converting UK Biobank genome-wide genotyping data from one reference build to another |
 | [ukb-phasing](https://github.com/browning-lab/ukb-phasing) | A pipeline for phasing 200,031 sequenced genomes in the UK Biobank on RAP |
+| [μ-PBWT](https://github.com/dlcgold/muPBWT) | A PBWT-based light index enabling storage and use of UK Biobank scale genotype data on a commodity laptop |
+| [DNANexus_GRS](https://github.com/hdg204/DNANexus_GRS) | An R Function for calculating genetic risk scores in the UK Biobank cohort using DNA Nexus |
+
 
 ## Imaging phenotypes
 
@@ -133,6 +141,7 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [morpho-deepsulci](https://github.com/brainvisa/morpho-deepsulci) | Deep learning methods for Morphologist sulci recognition |
 | [ENIGMA-SULCI](https://hub.docker.com/r/fpizzaga/sulci) | Docker image for the sulci protocol from the ENIGMA-SULCI working group that combines Freesurfer and BrainVISA to robuslty segment and label 123 sulci across the whole brain |
 | [adni_phenotypes](https://github.com/tjiagoM/adni_phenotypes) | Identifying healthy individuals with Alzheimer neuroimaging phenotypes in the UK Biobank |
+| [generative_brain_controlnet](https://github.com/Warvito/generative_brain_controlnet) | Train ControlNet on FLAIR images in UK Biobank using MONAI Generative Models |
 
 ### Cardiac MRI
 | Tool | Description |
@@ -167,6 +176,7 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 ## Data processing
 | Tool | Description |
 |------|-------------|
+| [UKB_RAP](https://github.com/dnanexus/UKB_RAP) | Access share reviewed code & Jupyter Notebooks for use on the UK Biobank Research Application Platform. Includes resources from DNAnexus webinars, online trainings and workshops |
 | [ukbtools](https://github.com/kenhanscombe/ukbtools) | An R package to manipulate and explore UK Biobank data |
 | [ukbwranglr](https://github.com/rmgpanw/ukbwranglr) | An R package for UK Biobank data wrangling |
 | [ukbwranglrextra](https://github.com/rmgpanw/ukbwranglrextra) | Extra add-on functions for ukbwranglr |
@@ -187,6 +197,11 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [ukbpheno](https://github.com/niekverw/ukbpheno) | An R package for efficiently munging the files provided by UK Biobank to generate data tables of with unified format for further analysis |
 | [ukb_healthoutcomes_db](https://github.com/ccbs-stradl/ukb_healthoutcomes_db) | Store and work with UK Biobank record-level health outcomes in a SQLite database |
 | [UKBWeightsFinal](https://github.com/sjoerdvanalten/UKBWeightsFinal) | Derive weights for UK Biobank to address selection bias using the 2011 Census |
+| [ukb-rap-tools](https://github.com/pjgreer/ukb-rap-tools) | Scripts and workflows for use analysing UK Biobank data from the DNANexus Research Analysis Platform |
+| [UKBBcleanR](https://github.com/machiela-lab/UKBBcleanR) | Prepare electronic medical record data from the UK Biobank for time-to-event analyses |
+| [ukbiobank-loaders](https://github.com/BenevolentAI/ukbiobank-loaders) | Convert UK Biobank electronic health data into Apache Parquet files that are easier to read, and a library that provides different methods to access the data |
+| [Rdna-nexus](https://github.com/hdg204/Rdna-nexus) | Functions to analyse UK Biobank genetic data directly from DNA Nexus' RStudio Workbench |
+
 
 ## Misc
 | Tool | Description |
@@ -197,6 +212,7 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [docker-ukbiobank-utils](https://github.com/spiros/docker-ukbiobank-utils) | Docker versions of the utilities provided by UK Biobank |
 | [tofu](https://github.com/spiros/tofu) | Tofu is a Python library for generating synthetic UK Biobank data |
 | [BBS](https://github.com/choishingwan/BBS) | Simulation software for generating phenotypes from UK Biobank data |
+
 
 ## Contributing
 Please submit a pull request or create an issue to add a new resource to the list - software, packages, tutorials or similar welcomed. 
