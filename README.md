@@ -87,6 +87,7 @@ Many of these, and more, are available via the fantastic [MRC IEU OpenGWAS](http
 | [ukbcodes](https://github.com/SurgicalInformatics/ukbcodes) | Returns suggestions of equivalent codes based on UK Biobank mappings |
 | [UKB.COVID19](https://github.com/bahlolab/UKB.COVID19) | UK Biobank COVID-19 data processing and risk factor association tests |
 | [UKBB-OMOP](https://github.com/dxy257/UKBB-OMOP) | Electronic phenotyping in the UK Biobank using the OMOP Common Data Model |
+| [ukbSurvPhe](https://github.com/Cui-yd/ukbSurvPhe) | Generate time-to-event phenotypes in UK Biobank based on PheCodes |
 
 ### Clinical and biochemical
 | Tool | Description |
